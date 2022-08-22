@@ -1,0 +1,28 @@
+.container-table {
+    width: 50%;
+    height: auto;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-file, .container-flex {
+    margin: 5px;
+} 
+
+.container-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-buttons button {
+    margin-top: 5px;
+    width: 50%;
+}
